@@ -1,0 +1,14 @@
+version: '2'
+services:
+  elasticsearch:
+    container_name: es
+    image: elasticsearch    
+    ports:
+      - 9200:9200
+  kibana:
+    container_name: kibana
+    image: kibana    
+    ports:
+      - 5601:5601
+    environment:
+      ELASTICSEARCH_URL: http://elasticsearch:9200

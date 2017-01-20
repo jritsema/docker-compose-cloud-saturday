@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+
+  service1:
+    image: ubuntu:${TAG}
+    command: env
+    environment:
+      INLINE: foo
+      FROM_SHELL:
+      FROM_ENV: ${FROM_ENV}
+    env_file:
+      - variables.env      
+
+  service2:
+    image: ubuntu:14.04
+    command: sleep 3600
+    environment:
+      - VAR2=asdf
+      

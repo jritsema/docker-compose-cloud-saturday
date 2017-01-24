@@ -7,7 +7,7 @@ Learn how to leverage [Docker Compose](https://docs.docker.com/compose/) for loc
 
 ---
 
-[Slides](https://docs.google.com/a/johnritsema.com/presentation/d/1ZiCi5xNZyQlsePyng9Z77SR1hXkw0K0qrzVhehHslKQ/edit?usp=sharing)
+[Slides](https://docs.google.com/presentation/d/1ZiCi5xNZyQlsePyng9Z77SR1hXkw0K0qrzVhehHslKQ/edit?usp=sharing)
 
 This repo contains demo material for the talk.
 
